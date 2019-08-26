@@ -1,0 +1,31 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}input[type="text"] {
+  min-width: 98%;
+  margin: 1px 0 9px;
+  height: 39px;
+  border-radius: 4px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+.loading{ position: fixed; left: 0; right: 0; bottom: 0; padding-top:20%; color: #fff; top: 0; background: rgba(0, 0, 0, 0.8); text-align: center;}
+.mainCompo {
+  margin: 1% auto;
+  max-width: 80%;
+  padding: 20px;
+  background: #f5f4f4;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}.mainCompo table{ background: #fff;}
